@@ -1,0 +1,331 @@
+
+body {
+  font-family: 'Raleway', 'sans-serif';
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 13px;
+  color: #7a7a7a;
+  line-height: 24px;
+  left: 0.25px;
+}
+
+section {
+  padding-top: 80px;
+}
+
+
+.section-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  margin-left: 120px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.section-heading span {
+  font-size: 20px;
+  display: block;
+  margin: 0px;
+  color:black;
+}
+
+
+/* Banner Style */
+
+section.banner {
+  padding: 0px;
+}
+
+.banner {
+  background-image: url(/img/img2/background.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner .banner-caption {
+  padding: 212px;
+  padding-top: 50px;
+  padding-bottom: 400px;
+  display: row;
+}
+
+.banner .banner-caption h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 42px;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.banner .banner-caption span {
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 0.5px;
+
+}
+
+
+
+.banner .submit-form {
+  
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 30px;
+  height: 100px;
+}
+
+.submit-form .form-group row {
+  border-right: 1px solid #ddd;
+  
+}
+
+.submit-form .second-item {
+  border-right: 1px solid #ddd;
+}
+
+.submit-form .third-item {
+  border-right: 1px solid #ddd;
+}
+
+.submit-form select {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  color: #9a9a9a;
+  outline: none;
+  padding: 0px 10px;
+  display: inline-block;
+}
+
+.submit-form input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  color: #9a9a9a;
+  outline: none;
+  padding: 0px 10px;
+  display: inline-block;
+  box-shadow: none;
+}
+
+.submit-form input:focus{
+  border-width: 0px;
+  outline:0; /* I have also tried outline:none */
+  -webkit-appearance:none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.submit-form button {
+  width: 100%;
+  height: 50px;
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 0px;
+  background-color: green;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid green;
+  transition: all 0.5s;
+}
+
+.submit-form button:hover {
+  background-color: transparent;
+  color: #4883ff;
+}
+
+.resultsnumber .owl-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.resultsnumber .owl-dots {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.resultsnumber .owl-dots .owl-dot span  {
+  width: 12px;
+  height: 12px;
+  background-color: #cdcdcd!important;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.resultsnumber .owl-dots .active span {
+  background-color: #4883ff!important;
+}
+
+.resultsnumber .owl-dots button {
+  outline: none;
+}
+
+.resultsnumber .popular-item .thumb {
+  position: relative;
+}
+
+.resultsnumber .popular-item .thumb img {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.resultsnumber .popular-item .thumb .text-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9;
+  color: #fff;
+}
+
+.resultsnumber .popular-item .thumb .text-content h4 {
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.resultsnumber .popular-item .thumb .text-content span {
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  display: block;
+}
+
+.resultsnumber .popular-item .thumb .plus-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9;
+}
+
+
+.resultsnumber .popular-item .thumb .plus-button i {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.resultsnumber .popular-item .thumb .plus-button i:hover {
+  background-color: rgba(250,250,250,0.3);
+}
+.d-block {
+width:min-content;
+}
+.hentry {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.sana{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: space-around;
+  border-bottom: grey;
+}
+.sana span{
+  font-size: 15px;
+}
+.btnpayer{
+  width: 100%;
+  height: 50px;
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: rgb(20, 145, 20);
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid green;
+  transition: all 0.5s;
+}
+
+
+
+
+footer {
+  width: 800px;
+  margin-top: 200px;
+  padding: 80px 0px 70px 400px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+}
+
+.logo {
+  width: 500px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+#agency{
+  width: 120px;
+  height: 120px;
+  margin-right: 15px;
+}
+
+
+@media (max-width:992px) {
+
+  .banner .banner-caption {
+    padding: 200px 30px;
+  }
+
+  .submit-form input {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px;
+  }
+
+  .submit-form select {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px;
+  }
+
+
+
+  .table-item {
+    margin-bottom: 30px;
+  }
